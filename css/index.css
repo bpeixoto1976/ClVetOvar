@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap'); /* importa fonte da Google do Google Fonts */
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+} 
+
+body{
+    height: auto;
+}
+
+header img{
+   width: 150px; /* tamanho imagem logotipo */
+   border-radius: 50%; /* os 50% faz círculo em volta da imagem */
+   box-shadow: 10px 10px 10px black;/* sombra à volta imagem */
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+header{
+    text-align: center; /* centra o header */
+    background-color: #029297; /* cor de fundo */
+    background: linear-gradient(to right,  #029297 0%, rgb(99, 174, 185) 50%,  #029297 100%);
+}
+
+header h1,
+header h3{
+    color: whitesmoke; /* cor de texto */
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header h1{
+    font-size: 40px;
+    text-shadow: 10px 10px 20px black; /* sombra à volta texto*/
+    margin-top: 40px;
+}
+
+.redes-sociais{
+    width: 40px;
+    box-shadow: none;
+    margin-top: 50px;
+}
+
+header a{
+    text-decoration: none; /* sem sublinhado no header*/
+}
+
+.navbar{
+    background: linear-gradient(to top,  white 0%, #029297 25%, #029297 75%, white 100%);
+    opacity: 0.8;
+}
+
+.nav-link{
+    margin-left: 20px;
+    background-color:  #029297;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    width: 120px;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+.carousel{
+    width: 80%;
+    align-items: center; 
+    margin-left: auto; 
+    margin-right: auto;
+
+}
+
+#sobre{
+    margin-top: 50px;
+}
+
+body{
+    background-color: #029297;
+    background-image: linear-gradient(to right,  white 0%, #029297 25%, white 50%, #029297 75%, white 100%);
+}
+
+.sec-sobre .card, 
+.sec-contactos .card,
+.sec-urgencias .card{
+    box-shadow: 10px 10px 10px #029297;
+    background-color: whitesmoke;
+    max-width: 1200px; 
+    margin-left: auto; 
+    margin-right: auto;
+    line-height: 200%;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.card-title{
+    color: #029297;
+    font-weight: bold;
+}
+
+.card img{
+    width: 100%;
+    margin-left: none;
+    margin-right: none;
+}
+
+.btn{
+    background-color: #029297;
+}
+
+.sec-sobre,
+.sec-urgencias,
+.sec-contactos
+{
+    padding-top: 80px;
+}
+
+
+
+.card-servicos{
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.card-servicos .card{
+    background-color: whitesmoke;
+    max-width: 90%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mapa{
+    width: 100%;
+    height: 400px;
+    margin-left: none;
+    margin-right: none;
+}
+
+#nome,
+#telemovel{
+    border-radius: 20px;
+    height: 40px;
+}
+
+#mensagem-texto{
+    border-radius: 15px;
+    height: 150px;
+    width: 80%;
+}
+
+.sec-newsletter .card{
+    max-width: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 100px; 
+    background-color: whitesmoke;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.sec-newsletter .card-header{
+    background-color: #029297;
+    color:white;
+    font-size: large;
+}
+
+.sec-consulta .card{
+    max-width: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 100px; 
+    background-color: whitesmoke;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.sec-consulta .card-header{
+    background-color: #029297;
+    color:white;
+    font-size: large;
+}
+
+.img-sobre{
+    width: 100%;
+    transform: scale(1.0);
+    transition: transform ease-in-out 1s;
+}
+
+.img-sobre:hover{
+    transform: scale(1.2) translateX(25px);
+    transition: transform ease-in-out 1s;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.zoom-restringido{
+    overflow: hidden;
+
+}
+
+.btn-primary:hover{
+    transform: scale(1.05); 
+    transition: transform ease-in-out 0.5s; /* tempo que demora a transição */
+    box-shadow: 10px 10px 10px black;
+}
+
+
+
+footer{
+    text-align: center; /* centra o header */
+    background-color: #029297; /* cor de fundo */
+    background: linear-gradient(to right,  #029297 0%, rgb(99, 174, 185) 50%,  #029297 100%);
+    font-family: 'Trebuchet MS', sans-serif;
+    color:white;
+    padding-top: 0px;
+    margin-bottom: -25px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .redes-sociais{
+    width: 40px;
+    box-shadow: none;
+    border-radius: 50%;
+    margin-top: 0px;
+}
+
+
+
+/* Configuração do botao topo */
+@keyframes fade-in {
+    0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fade-out {
+    0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+        visibility: hidden;
+	}
+}
+
+
+.botao-topo img{
+    width: 50px;
+    background-color: rgba(189, 212, 213, 0.7);
+    box-shadow : 5px 6px 10px rgb(93, 104, 103);
+    border-radius: 15px;
+}
+
+.botao-topo{
+    opacity: 0;
+    bottom: 80px;
+    text-align: center;
+}
+
+.botao-topo-mostrar{
+    animation: fade-in 0.7s ease-in forwards;
+}
+
+.botao-topo-esconder{
+    animation: fade-out 0.7s ease-out forwards;
+}
+/* Fim configuração botao topo */
+
+
+

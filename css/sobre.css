@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+
+
+
+.sec-valores{
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.sec-valores .card{
+    background-color:whitesmoke;
+    max-width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
